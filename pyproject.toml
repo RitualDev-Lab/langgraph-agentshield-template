@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langgraph-agentshield-template"
+version = "1.0.0"
+description = "Production Python LangGraph Multi-Agent Template with @shield.protect Zero-Leak Sandboxing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "agentshield-defense>=0.2.2",
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0"
+]
