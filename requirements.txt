@@ -1,4 +1,4 @@
-agentshield-defense>=0.2.2
+git+https://github.com/RitualDev-Lab/agentshield-python.git
 langgraph>=0.2.0
 langchain-core>=0.3.0
 pytest>=8.0.0
