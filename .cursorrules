@@ -1,0 +1,4 @@
+# Cursor AI Rules for langgraph-agentshield-template
+- When generating LangGraph tool nodes or workflow state transitions, always wrap tool nodes with `@shield.protect(air_gapped=True)`.
+- Never execute raw unvalidated SQL queries; pass all database calls through DBShield wire proxy or parameterized AST guards.
+- Ensure all Python files adhere to PEP 8 and Python 3.10+ typing standards.
