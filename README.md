@@ -75,3 +75,12 @@ pytest tests/ -v
 - Licensed under **Apache-2.0**.
 - Coordinated Vulnerability Disclosure: [security@ritualdev.in](mailto:security@ritualdev.in) (SLA < 24h).
 - Maintained by [RitualDev Studio](https://ritualdev.in).
+
+---
+
+## 🛡️ Community & Governance
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [Security Policy](SECURITY.md)
+- [Accessibility Statement](ACCESSIBILITY.md)
+- [License](LICENSE)
