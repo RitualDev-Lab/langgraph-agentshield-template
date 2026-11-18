@@ -16,6 +16,14 @@
 
 ---
 
+> **Canonical Consolidated Example Notice**: This starter template is now maintained canonically inside [`RitualDev-Lab/AgentShield/examples/langgraph-starter`](https://github.com/RitualDev-Lab/AgentShield/tree/main/examples/langgraph-starter).  
+> You can also boot the full 3-layer defense stack (AgentShield + DBShield + SkillPrism) declaratively using [`ritual.policy.yaml`](https://github.com/RitualDev-Lab/AgentShield/blob/main/examples/ritual.policy.yaml):
+> ```bash
+> npx @ritualdev-lab/agentshield up --config ritual.policy.yaml
+> ```
+
+---
+
 ## ⚡ What is this?
 
 When autonomous AI agents built with **LangGraph, CrewAI, AutoGen, or LlamaIndex** execute tools and retrieve database records, they frequently encounter volatile credentials (database connection strings, bearer tokens, AWS keys, `/proc/self/environ` reads).
